@@ -34,6 +34,11 @@ nav{
     
 }
 
+
+.btn-primary:hover {
+  background-color: rgb(103, 210, 103)
+}
+
 .secondary-bg{
     background-color: #dbd8f5;
 }
@@ -48,6 +53,10 @@ nav{
     margin-top: 13px;
     margin-bottom: 100px;
     
+}
+
+.button3{
+    width: 200px;
 }
 
 .banner{
@@ -209,7 +218,7 @@ form textarea {
   
 
 
-.button3{
+.button4{
     width: 500px;
 }
 
