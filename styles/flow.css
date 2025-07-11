@@ -106,7 +106,7 @@ nav{
 }
 
 .item-title{
-    font-weight: bold;
+    font-weight: 400px;
     font-size: xx-large;
     color: #4E47FF;
 }
@@ -158,6 +158,7 @@ nav{
 .feedback{
     padding: 30px;
     border-radius: 10px;
+    flex-wrap: wrap;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, .06);
     margin: 60px 40px 20px 100px;
     
@@ -228,9 +229,11 @@ form textarea {
 
 footer a{
     text-decoration: none;
-    gap: 10px;
+    
     color: #8987A1;
 }
+
+
 
 .footer-title{
     text-align: center;
@@ -238,10 +241,13 @@ footer a{
 }
 
 .footer-contents{
-    text-align: center;
-    
-    
+   margin-bottom: 50px;
+  text-align: center;
 }
+
+    
+    
+
 
 
  
