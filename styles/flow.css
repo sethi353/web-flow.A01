@@ -100,3 +100,135 @@ nav{
 .item-description{
     color: #9e9cac;
 }
+
+
+.feedbacks-title{
+    text-align: center;
+}
+
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between avatar and text */
+}
+
+.avater {
+  
+  
+  border-radius: 50%;
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.date {
+  margin: 2px 0 0;
+  color: gray;
+  font-size: 0.9rem;
+}
+.feedback-container{
+    display: flex;
+    
+}
+
+.feedback{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, .06);
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.form {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-column {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Left Side: Center text */
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(14, 14, 14);
+}
+
+.touch {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Right Side: Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+  
+  
+
+
+.button3{
+    width: 500px;
+}
+
+footer a{
+    text-decoration: none;
+    gap: 10px;
+    color: #8987A1;
+}
+
+.footer-title{
+    text-align: center;
+    color: #4E47FF;
+}
+
+.footer-contents{
+    text-align: center;
+}
+
+
+ 
+
+
